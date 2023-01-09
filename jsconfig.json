@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+          "@components/*": ["src/components/*"],
+          "@css/*": ["public/css/*"]
+        }
+    },
+    "exclude": ["node_modules", "build", ".babelrc"]
+}
